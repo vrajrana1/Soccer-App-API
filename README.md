@@ -3,7 +3,7 @@
 
 ## Introduction
 
-Api powered CRUD based application using laravel.This soccer app API build with Laravel & It allow user to manage Team and Player and test using Postman collections.
+Soccer Application Api powered CRUD based application using laravel & It allow user to manage Team and Player and test using Postman collections.
 
 
 ### Features
