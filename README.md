@@ -15,7 +15,7 @@ Api powered CRUD based application using laravel.This soccer app API build with 
 
 ## Official Documentation
 
-Documentation for basic setup can be found at [Laravel]([https://laravel.com/docs/5.5/](https://laravel.com/docs/10.x/readme).
+Documentation for basic setup can be found at [Laravel]([https://laravel.com/docs/5.5/](https://laravel.com/docs/10.x/readme)).
 
 
 ## System requirements
@@ -30,7 +30,7 @@ Make sure your server meets the following requirements.
 
 Please follow the guide.
 1. Clone the repository:
-    git clone 
+    git clone https://github.com/vrajrana1/Soccer-App-API.git
 2. Install the dependencies:
 3. Update the `.env` file with the database credentials.
 4. Migrate the database:
@@ -43,3 +43,8 @@ Please follow the guide.
 ```
 php artisan serve --port=8000
 ```
+
+
+## Conclusion
+
+This is a basic guide to create a soccer app in Laravel with an API-only approach. You can use this as a starting point to build more complex applications or add additional features.
