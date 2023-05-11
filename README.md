@@ -15,7 +15,7 @@ Api powered CRUD based application using laravel.This soccer app API build with 
 
 ## Official Documentation
 
-Documentation for basic setup can be found at [Laravel] https://laravel.com/docs/10.x/readme .
+Documentation for basic setup can be found at [https://laravel.com/docs/10.x/readme].
 
 
 ## System requirements
