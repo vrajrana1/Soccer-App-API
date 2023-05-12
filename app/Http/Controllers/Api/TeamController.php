@@ -10,6 +10,10 @@ use Illuminate\Support\Facades\Validator;
 
 class TeamController extends Controller
 {
+    /**
+    * unauthResponse function use for response message to unatheticated users 
+    * 
+    */
 
     public function unauthResponse()
     {
