@@ -10,6 +10,31 @@ use Illuminate\Support\Facades\Validator;
 
 class TeamController extends Controller
 {
+
+    public function unauthResponse()
+    {
+        try {
+            return response()->json([
+                'status' => false,
+                'message' => 'You are unautheticated. redirect to login page'
+            ]);
+        }catch (\Exception $e) {
+            return response()->json(['error' => $e->getMessage()], 500);
+        }
+    }
+
+    public function testSafe()
+    {
+        try {
+            return response()->json([
+                'status' => true,
+                'message' => 'Passed'
+            ]);
+        }catch (\Exception $e) {
+            return response()->json(['error' => $e->getMessage()], 500);
+        }
+    }
+    
     /**
     * index function
     * 
@@ -133,6 +158,7 @@ class TeamController extends Controller
 
             return response()->json([
                 'message' => 'Team deleted successfully',
+                'team' => $team
             ], 204);
         } catch (\Exception $e) {
             return response()->json(['error' => $e->getMessage()], 500);
@@ -150,7 +176,7 @@ class TeamController extends Controller
         try {
             $team = Team::findOrFail($id);
             $players = $team->players;
-
+            
             return response()->json(['players' => $players], 200);
         } catch (\Exception $e) {
             return response()->json(['error' => $e->getMessage()], 500);
