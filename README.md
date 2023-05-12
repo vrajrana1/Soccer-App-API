@@ -48,7 +48,3 @@ php artisan serve --port=8000
 ## Conclusion
 
 This is a basic guide to create a soccer app in Laravel with an API-only approach. You can use this as a starting point to build more complex applications or add additional features.
-<<<<<<< HEAD
-=======
-
->>>>>>> 4172b55c67e76a47010f7091da7903b3b7feb035
